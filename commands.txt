@@ -57,3 +57,14 @@ cuz it wipes everything back to a specifi commit
 git revert still keeps ur history progress
 but git reset is an atomic bumb
 
+
+
+========BRANCHES IN GIT==========
+
+so jaise samjh-
+elden ring ke save files:
+maine ek file me strength build try kiya and ab muje int build try krnahai 
+so waht will i do? 
+make a new file and start a new game or create a copy of ur file and start a new int build  
+thats similar to branches in git 
+it lets you work on different branches in a same project
