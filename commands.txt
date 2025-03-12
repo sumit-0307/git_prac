@@ -68,3 +68,10 @@ so waht will i do?
 make a new file and start a new game or create a copy of ur file and start a new int build  
 thats similar to branches in git 
 it lets you work on different branches in a same project
+
+to create a branch 
+git branch (name)
+then to switch to it js use checkout
+git checkout (name)
+to use it both in a short one line
+git checkout -b (name)
