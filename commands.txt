@@ -10,6 +10,7 @@ git commit - to save all the changes
 (git commit -m "Message": git commit -m "index.html changes")
 
 git status - if u want to see whats added in ur staging area 
+            or what state ur in rn (if u r in a detachedHEAD state)
 
 echo "# git_prac" >> README.md
 git init
@@ -27,3 +28,14 @@ git push -u origin main     (final command to push ur code from local connection
 =======How to retrieve or go back to older versions of ur file=========
 git log - this command provides u the list of commits and changes to ur project
 (git log --oneline) : this gives u the samelog but in a shorter one line format
+
+git checkout "HASH VALUE ID" - this lets you checkout the history of commits of a specific hash id commit
+this also enters a detached HEAD state:
+which means it only lets you explore the previous commits but you cant make any new commits
+
+now if u want to get out of this detached head state just enter
+git checkout main
+
+now to GET BACK UR FILE OR GO TO BACK TO CHANGE U made
+git revert "HASH ID" 
+
