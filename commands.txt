@@ -8,3 +8,5 @@ git add (file_name): git add index.html)
 
 git commit - to save all the changes
 (git commit -m "Message": git commit -m "index.html changes")
+
+git status - if u want to see whats added in ur staging area 
