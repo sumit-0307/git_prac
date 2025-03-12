@@ -22,3 +22,8 @@ git remote add origin https://github.com/sumit-0307/git_prac.git (provide ur git
                                                                 connect ur local git to github)
 
 git push -u origin main     (final command to push ur code from local connection to github)
+
+
+=======How to retrieve or go back to older versions of ur file=========
+git log - this command provides u the list of commits and changes to ur project
+(git log --oneline) : this gives u the samelog but in a shorter one line format
