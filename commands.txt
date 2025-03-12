@@ -10,3 +10,15 @@ git commit - to save all the changes
 (git commit -m "Message": git commit -m "index.html changes")
 
 git status - if u want to see whats added in ur staging area 
+
+echo "# git_prac" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main   (changes ur branch from Master to main)
+                    used just for naming convention 
+
+git remote add origin https://github.com/sumit-0307/git_prac.git (provide ur git repo link to 
+                                                                connect ur local git to github)
+
+git push -u origin main     (final command to push ur code from local connection to github)
