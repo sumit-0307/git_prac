@@ -1,0 +1,10 @@
+git init - invite a git to look at ur code and initialize it in an empty repo 
+            or reinitialize it in an existing repo
+
+git add - git add adds the changes made to ur project in a staging area as in a waiting room
+            changes hang out in waiting room until u want to final commit 
+(git add . - to add all changes
+git add (file_name): git add index.html)
+
+git commit - to save all the changes
+(git commit -m "Message": git commit -m "index.html changes")
