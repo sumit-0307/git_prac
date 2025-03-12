@@ -75,3 +75,15 @@ then to switch to it js use checkout
 git checkout (name)
 to use it both in a short one line
 git checkout -b (name)
+
+then after ur switched to a new branch make any changes u want to ur files
+once ur done use merge after checkout to main branch
+git checkout main 
+git merge (name)
+
+then after ur done merging or bychance u dont want the branch commits
+u can just delete it 
+git branch -d (name)
+
+to know what branches u have in ur system just use 
+git branch 
