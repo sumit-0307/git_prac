@@ -29,13 +29,31 @@ git push -u origin main     (final command to push ur code from local connection
 git log - this command provides u the list of commits and changes to ur project
 (git log --oneline) : this gives u the samelog but in a shorter one line format
 
-git checkout "HASH VALUE ID" - this lets you checkout the history of commits of a specific hash id commit
+git checkout "HASH VALUE ID" - 
+this lets you checkout the history of commits of a specific hash id commit
 this also enters a detached HEAD state:
 which means it only lets you explore the previous commits but you cant make any new commits
+
 
 now if u want to get out of this detached head state just enter
 git checkout main
 
 now to GET BACK UR FILE OR GO TO BACK TO CHANGE U made
 git revert "HASH ID" 
+
+iske baad some audit appears now if u want to make changes in that audit log 
+u can press i to enter edit mode and insert any revert message comments in ur audit
+make sure to start the comments with # so that it gets ignored 
+
+now after typing any revert messages press esc to escape the edit mode 
+then type :wq and enter to save the changes and revert the changes u wanted
+enter git log again to check ur revert 
+
+now if u want to go to extreme back like go back to riyallyyy back in time and change some commit
+git reset --hard "HASH ID"
+
+git reset is really dangerous and risky 
+cuz it wipes everything back to a specifi commit 
+git revert still keeps ur history progress
+but git reset is an atomic bumb
 
